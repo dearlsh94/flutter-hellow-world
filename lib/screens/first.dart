@@ -10,8 +10,8 @@ class First extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(_title)),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.center,
         verticalDirection: VerticalDirection.down,
         children: <Widget>[
