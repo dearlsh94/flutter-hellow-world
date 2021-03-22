@@ -22,7 +22,8 @@ class First extends StatelessWidget {
             child: Text('Go Home'),
             shape: RoundedRectangleBorder(
                 borderRadius: new BorderRadius.circular(10.0)),
-          )
+          ),
+          Text('hi')
         ],
       ),
     );
