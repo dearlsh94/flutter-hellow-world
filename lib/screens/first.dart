@@ -14,7 +14,7 @@ class First extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.center,
         verticalDirection: VerticalDirection.down,
-        children: <Widget>[
+        children: [
           RaisedButton(
             onPressed: () {
               Navigator.pushNamed(context, Home.routeName);
